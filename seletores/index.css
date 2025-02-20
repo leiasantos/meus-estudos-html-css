@@ -1,0 +1,151 @@
+
+* {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Seletor de Tipo */
+h1 {
+  color: blue;
+}
+
+/* Classe */
+.texto {
+  color: green;
+}
+
+/* ID */
+#paragrafo-unico {
+  font-weight: bold;
+  background-color: lightgray;
+}
+
+/* Descendente */
+.container p {
+  padding: 5px;
+}
+
+/* Filho Direto */
+.filhos > p {
+  color: red;
+}
+
+/* Irmão Adjacente */
+h2 + p {
+  font-style: italic;
+}
+
+/* Irmãos Gerais */
+h2 ~ p {
+  color: purple;
+}
+
+/* Atributo */
+input[type="text"] {
+  border: 2px solid black;
+}
+
+/* Atributo (começa com "btn") */
+[class^="btn"] {
+  background-color: orange;
+  padding: 5px;
+  display: inline-block;
+}
+
+/* Atributo (termina com "btn") */
+[class$="btn"] {
+  font-size: 20px;
+}
+
+/* Atributo (contém "btn") */
+[class*="btn"] {
+  text-transform: uppercase;
+}
+
+/* Primeiro Filho */
+.container p:first-child {
+  border-bottom: 2px dashed blue;
+}
+
+/* Último Filho */
+.container p:last-child {
+  border-bottom: 2px solid green;
+}
+
+/* Nth-Filho */
+.container p:nth-child(2) {
+  background-color: lightyellow;
+}
+
+/* Nth-Filho Par/Ímpar */
+li:nth-child(odd) {
+  background-color: lightblue;
+}
+
+/* Primeiro do Tipo */
+p:first-of-type {
+  text-decoration: underline;
+}
+
+/* Último do Tipo */
+p:last-of-type {
+  font-style: italic;
+}
+
+/* Nth do Tipo */
+p:nth-of-type(2) {
+  color: darkred;
+}
+
+/* Somente Filho */
+section p:only-child {
+  background-color: pink;
+}
+
+/* Somente do Tipo */
+p:only-of-type {
+  border: 1px dashed gray;
+}
+
+/* Vazio */
+.vazio:empty {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+}
+
+/* Pseudo-classe Hover */
+a:hover {
+  color: red;
+}
+
+/* Ativo */
+button:active {
+  background-color: darkblue;
+}
+
+/* Focado */
+input:focus {
+  background-color: lightcyan;
+}
+
+/* Habilitado */
+input:enabled {
+  background-color: white;
+}
+
+/* Desabilitado */
+input:disabled {
+  background-color: gray;
+}
+
+/* Checado */
+input:checked {
+  outline: 2px solid green;
+}
+
+/* Negação */
+p:not(.especial) {
+  font-size: 14px;
+}

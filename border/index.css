@@ -1,0 +1,157 @@
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* 1. Largura da borda */
+.border-width {
+  width: 200px;
+  height: 100px;
+  margin: 10px auto;
+  line-height: 100px;
+  text-align: center;
+  border-width: 5px;
+  border-style: solid;
+  border-color: red;
+}
+
+/* 2. Estilo da borda */
+.border-style {
+  width: 200px;
+  height: 100px;
+  margin: 10px auto;
+  line-height: 100px;
+  text-align: center;
+  border-width: 3px;
+  border-style: dashed;
+  border-color: green;
+}
+
+/* 3. Cor da borda */
+.border-color {
+  width: 200px;
+  height: 100px;
+  margin: 10px auto;
+  line-height: 100px;
+  text-align: center;
+  border-width: 4px;
+  border-style: solid;
+  border-color: blue;
+}
+
+/* 4. Atalho para borda (largura, estilo e cor) */
+.border-shorthand {
+  width: 200px;
+  height: 100px;
+  margin: 10px auto;
+  line-height: 100px;
+  text-align: center;
+  border: 3px solid purple;
+}
+
+/* 5. Borda superior */
+.border-top {
+  width: 200px;
+  height: 100px;
+  margin: 10px auto;
+  line-height: 100px;
+  text-align: center;
+  border-top: 5px solid orange;
+}
+
+/* 6. Borda direita */
+.border-right {
+  width: 200px;
+  height: 100px;
+  margin: 10px auto;
+  line-height: 100px;
+  text-align: center;
+  border-right: 4px solid yellow;
+}
+
+/* 7. Borda inferior */
+.border-bottom {
+  width: 200px;
+  height: 100px;
+  margin: 10px auto;
+  line-height: 100px;
+  text-align: center;
+  border-bottom: 6px solid pink;
+}
+
+/* 8. Borda esquerda */
+.border-left {
+  width: 200px;
+  height: 100px;
+  margin: 10px auto;
+  line-height: 100px;
+  text-align: center;
+  border-left: 3px solid brown;
+}
+
+/* 9. Bordas arredondadas */
+.border-radius {
+  width: 200px;
+  height: 100px;
+  margin: 10px auto;
+  line-height: 100px;
+  text-align: center;
+  border: 5px solid black;
+  border-radius: 15px;
+}
+
+
+/* 1. Borda sólida */
+.solid {
+  background-color: papayawhip;
+  border: 5px solid black;
+}
+
+/* 2. Borda tracejada */
+.dashed {
+  background-color: papayawhip;
+  border: 5px dashed rgb(190, 190, 47);
+}
+
+/* 3. Borda pontilhada */
+.dotted {
+  background-color: papayawhip;
+  border: 5px dotted rgb(11, 137, 38);
+}
+
+/* 4. Borda dupla */
+.double {
+  background-color: papayawhip;
+  border: 5px double orange;
+}
+
+/* 5. Borda groove */
+.groove {
+  background-color: papayawhip;
+  border: 5px groove rgb(110, 55, 230);
+}
+
+/* 6. Borda ridge */
+.ridge {
+  background-color: papayawhip;
+  border: 5px ridge yellow;
+}
+
+/* 7. Borda inset */
+.inset {
+  background-color: papayawhip;
+  border: 5px inset rgb(31, 15, 204);
+}
+
+/* 8. Borda outset */
+.outset {
+  background-color: papayawhip;
+  border: 5px outset gold;
+}
+
+/* 9. Sem borda */
+.none {
+  background-color: lightgray;
+  border: none;
+}

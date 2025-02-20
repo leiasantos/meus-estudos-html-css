@@ -1,0 +1,69 @@
+/* Cor do texto */
+.color {
+  color: red; /* Cor do texto: Vermelho */
+}
+
+/* Fonte do texto */
+.font-family {
+  font-family: 'Arial', sans-serif; /* Fonte Arial */
+}
+
+/* Tamanho da fonte */
+.font-size {
+  font-size: 36px; /* Tamanho da fonte: 36px */
+}
+
+/* Peso da fonte */
+.font-weight {
+  font-weight: bold; /* Fonte em negrito */
+}
+
+/* Estilo da fonte */
+.font-style {
+  font-style: italic; /* Estilo da fonte: Itálico */
+}
+
+/* Altura da linha */
+.line-height {
+  line-height: 1.5; /* Altura da linha */
+}
+
+/* Espaçamento entre letras */
+.letter-spacing {
+  letter-spacing: 5px; /* Espaçamento de 5px entre as letras */
+}
+
+/* Alinhamento do texto */
+.text-align {
+  text-align: justify; /* Alinhamento Justificado */
+}
+
+/* Decoração do texto */
+.text-decoration {
+  text-decoration: underline; /* Texto Sublinhado */
+}
+
+/* Transformação do texto */
+.text-transform {
+  text-transform: uppercase; /* Texto em Maiúsculas */
+}
+
+/* Sombra no texto */
+.text-shadow {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra no texto */
+}
+
+/* Espaço em branco */
+.white-space {
+  white-space: nowrap; /* Espaço em branco não quebra a linha */
+}
+
+/* Espaçamento entre palavras */
+.word-spacing {
+  word-spacing: 10px; /* Espaçamento de 10px entre as palavras */
+}
+
+/* Modo de escrita */
+.writing-mode {
+  writing-mode: vertical-rl; /* Modo de escrita vertical da direita para a esquerda */
+}

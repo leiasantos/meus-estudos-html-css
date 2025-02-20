@@ -1,0 +1,8 @@
+.caixa {
+  width: 300px;   /* Largura de 300px */
+  height: 150px;  /* Altura de 150px */
+  background-color: lightgreen; /* Cor de fundo */
+  color: rgb(28, 3, 66); /* Cor do texto */
+  text-align: center; /* Alinhando o texto no centro */
+  line-height: 150px; /* Centralizando o texto verticalmente */
+}

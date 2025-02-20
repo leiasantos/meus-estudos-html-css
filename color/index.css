@@ -1,0 +1,40 @@
+/* Nome da cor */
+.nome-cor {
+  color: red;
+}
+
+/* Hexadecimal */
+.hexadecimal {
+  color: #ff5733;
+}
+
+/* RGB */
+.rgb {
+  color: rgb(0, 128, 255);
+}
+
+/* RGBA (com transparência) */
+.rgba {
+  color: rgba(0, 128, 255, 0.5);
+}
+
+/* HSL */
+.hsl {
+  color: hsl(200, 100%, 50%);
+}
+
+/* HSLA (com transparência) */
+.hsla {
+  color: hsla(200, 100%, 50%, 0.5);
+}
+
+/* CurrentColor */
+.currentColor {
+  color: currentColor;
+  border: 2px solid currentColor; /* Herdando a cor do elemento pai */
+}
+
+/* Transparent */
+.transparent {
+  color: transparent;
+}

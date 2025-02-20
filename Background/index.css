@@ -1,0 +1,52 @@
+/* Estilos Gerais */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: lightgray;
+}
+
+/* Estilos para as Divs */
+div {
+  width: 300px;
+  height: 100px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid black;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 1. Cor de fundo */
+.exemplo1 {
+  background: red;
+}
+
+/* 2. Imagem de fundo */
+.exemplo2 {
+  background: url('https://placehold.co/300') yellow;
+}
+
+/* 3. Imagem sem repetição */
+.exemplo3 {
+  background: url('https://placehold.co/150') no-repeat;
+}
+
+/* 4. Imagem Centralizada */
+.exemplo4 {
+  background: url('https://placehold.co/150') no-repeat center;
+}
+
+/* 5. Imagem Ajustada ao Fundo */
+.exemplo5 {
+  background: url('https://placehold.co/300') no-repeat center;
+  background-size: cover;
+}
+
+/* 6. Fundo Fixo ao Rolar */
+.exemplo6 {
+  background: url('https://placehold.co/600x400/orange/white') no-repeat center fixed;
+  background-size: cover;
+}
